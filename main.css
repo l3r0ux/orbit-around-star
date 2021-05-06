@@ -26,8 +26,8 @@ main {
     transform: translate(-50%, -50%);
     border-radius: 50%;
     background-color: rgb(255, 153, 0);
-    width: 500px;
-    height: 500px;
+    width: 750px;
+    height: 750px;
     box-shadow: 0 0 100px rgb(255, 81, 0);
     z-index: 5;
 }
@@ -42,14 +42,14 @@ main {
     height: 100px;
     border-radius: 50%;
     animation-name: animate-planet;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
 @keyframes animate-planet {
     0% {
-        transform: translate(350px, 50%);
+        transform: translate(650px, 50%);
         z-index: 10;
 
         background-position: 25%;
@@ -63,7 +63,7 @@ main {
         box-shadow: 0px 0 5px rgb(0, 115, 209);
     }
     40% {
-        transform: translate(-450px, 50%);
+        transform: translate(-750px, 50%);
 
         background-position: 75%;
         box-shadow: 5px 0 5px rgb(0, 115, 209);
@@ -83,7 +83,7 @@ main {
         box-shadow: 0px 0 5px rgb(0, 115, 209);
     }
     100% {
-        transform: translate(350px, 50%);
+        transform: translate(650px, 50%);
 
         background-position: 25%;
         box-shadow: -5px 0 5px rgb(0, 115, 209);
